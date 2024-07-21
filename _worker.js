@@ -9,6 +9,7 @@ let socks5Address = '';
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
+	'cf.090227.xyz:443#加入我的频道t.me/CMLiussss解锁更多优选节点',
 	'time.is#你可以只放域名 如下',
 	'www.visa.com.sg',
 	'skk.moe#也可以放域名带端口 如下',
@@ -19,7 +20,7 @@ let addresses = [
 	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6也OK',
 ];
 
-let sub = ' '; 
+let sub = ''; 
 let subconverter = 'subapi-loadbalancing.pages.dev';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假节点信息防泄露
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"; //订阅配置文件
 let subProtocol = 'https';
